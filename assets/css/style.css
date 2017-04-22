@@ -1,0 +1,28 @@
+h1 {
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+.container {
+	float: left;
+}
+
+aside {
+	float: right;
+}
+
+footer {
+	text-align: center;
+	width: 100%;
+}
+
+.clear {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
