@@ -2,9 +2,15 @@
 	box-sizing; border-box;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-image: url("assets/images/indigo.jpg");
-	
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 section {
@@ -140,7 +146,7 @@ aside h3 {
 }
 
 .wrap {
-	min-height: calc(100vh-97px);
+	flex: 1;
 }
 
 .name, .main-nav, .main-nav li {
